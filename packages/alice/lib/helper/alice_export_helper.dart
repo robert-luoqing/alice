@@ -43,6 +43,7 @@ class AliceExportHelper {
       ShareParams(
         text: callLog,
         subject: context.i18n(AliceTranslationKey.emailSubject),
+        sharePositionOrigin: Rect.fromLTWH(0, 0, 1, 1),
       ),
     );
 
